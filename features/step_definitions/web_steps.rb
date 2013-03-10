@@ -287,6 +287,6 @@ Given /^the following articles exist:$/ do |fields|
   end
 end
 
-And /^I enter the article ID of "(.*?)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+And /^I enter the article ID of "(.*?)" into the "(.*?)" field$/ do |article_name, field_name|
+  fill_in(field_name, :with => Article.find_by_title(article_name).id)
 end

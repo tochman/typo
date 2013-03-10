@@ -150,10 +150,7 @@
   </div>
 
    <div class=''>
-     <h4><%= _("Merge Articles") %></h4>
-     <ul id='article_merge' class='inputs-list'>
-       <%= render 'admin/content/article_merge', { :hidden => false } -%>
-     </ul>
+       <%= render 'admin/content/article_merge', { :hidden => false } if @article.id -%>
    </div>
    </div>
 

@@ -1,4 +1,7 @@
-<div class='class'>
-  Article ID <%= text_field 'merge_with', 'merge', {:autocomplete => 'off'}%>
-  <span id='merge_link'><%= link_to(_("Merge"), {:controller => '/articles', :action => 'preview', :id => @article.id}, {:target => 'new', :class => 'btn danger'}) if @article.id %></span>
-</div>
+<h4><%= _("Merge Articles") %></h4>
+<ul id='article_merge' class='inputs-list'>
+    <div class='class'>
+      Article ID <%= text_field 'merge', 'with', {:name => 'merge_with', :autocomplete => 'off'}%>
+      <span id='merge_link'><%= link_to(_("Merge"), {:controller => '/admin/content', :action => 'merge_with', :id => @article.id}, {:id=> 'merge_link', :target => '_self', :class => 'btn danger'}) if @article.id %></span>
+    </div>
+</ul>
