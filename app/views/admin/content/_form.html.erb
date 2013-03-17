@@ -150,7 +150,7 @@
   </div>
 
    <div class=''>
-       <%= render 'admin/content/article_merge', { :hidden => false } if @article.id -%>
+       <%= render 'admin/content/article_merge', { :hidden => false } if (@article.id && @current_user.admin?) -%>
    </div>
    </div>
 
