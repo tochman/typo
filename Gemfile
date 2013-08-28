@@ -26,7 +26,7 @@ end
 source 'https://rubygems.org'
 
 gem 'thin'
-gem 'rails', '~> 3.0.20'
+gem 'rails', '~> 4.0.0'
 gem 'require_relative'
 gem 'htmlentities'
 gem 'json'
@@ -43,7 +43,7 @@ gem 'rake', '~> 0.9.2'
 gem 'acts_as_list'
 gem 'acts_as_tree_rails3'
 gem 'recaptcha', :require => 'recaptcha/rails', :branch => 'rails3'
-gem "activesupport", "3.2.7"
+#gem "activesupport", "3.2.7"
 
 group :development, :test do
   gem 'ruby-debug19'
