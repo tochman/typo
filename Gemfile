@@ -43,6 +43,7 @@ gem 'rake', '~> 0.9.2'
 gem 'acts_as_list'
 gem 'acts_as_tree_rails3'
 gem 'recaptcha', :require => 'recaptcha/rails', :branch => 'rails3'
+gem "activesupport", "3.2.7"
 
 group :development, :test do
   gem 'ruby-debug19'
