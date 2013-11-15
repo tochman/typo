@@ -113,10 +113,24 @@ class Admin::ContentController < Admin::BaseController
     render :text => nil
   end
 
+  # HW1 merge action
+
   def merge_with
-    puts "TO DO: merge_with method"
-    render :text => "TO DO: merge_with method"
+    unless Profile.find(current_user.profile_id).label == 'admin'
+      flash[:error] = _('You are not allowed to do this')
+      redirect_to :action => :index
+    end
+
+    if (Article.find_by_id(params[:id]).merge_with(params[:merge_with]))
+      flash[:notice] = 'Articles ware merged'
+    else
+      flash[:error] = 'Failed to merge articles'
+    end
+    redirect_to :action => "edit", :id => params[:id]
   end
+
+
+
 
   protected
 
