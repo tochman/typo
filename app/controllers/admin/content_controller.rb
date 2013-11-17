@@ -24,10 +24,12 @@ class Admin::ContentController < Admin::BaseController
   end
 
   def new
+    @user = current_user
     new_or_edit
   end
 
   def edit
+    @user = current_user
     @article = Article.find(params[:id])
     unless @article.access_by? current_user
       redirect_to :action => 'index'
@@ -113,24 +115,31 @@ class Admin::ContentController < Admin::BaseController
     render :text => nil
   end
 
-  # HW1 merge action
-
-  def merge_with
-    unless Profile.find(current_user.profile_id).label == 'admin'
-      flash[:error] = _('You are not allowed to do this')
-      redirect_to :action => :index
-    end
-
-    if (Article.find_by_id(params[:id]).merge_with(params[:merge_with]))
-      flash[:notice] = 'Articles ware merged'
+  def merge_other_article
+    @user = current_user
+    @article = Article.find(params[:id])
+    other_article_id = params[:merge_with]
+    if current_user.profile.label != "admin"
+      flash[:error] = _("You don't have permission to merge")
     else
-      flash[:error] = 'Failed to merge articles'
+      case
+        when other_article_id.blank?
+          flash[:error] = "No article ID given."
+        when other_article_id.to_i == @article.id
+          flash[:error] = "Could not merge with self"
+        when !(Article.all.map(&:id).include? other_article_id.to_i)
+          flash[:error] = "Could not find article with ID = #{other_article_id}"
+        else
+          @article.merge_with(params[:merge_with])
+          flash[:notice] = _("Articles are successfully merged")
+      end
     end
-    redirect_to :action => "edit", :id => params[:id]
+    #@images = Resource.images_by_created_at.page(params[:page]).per(10)
+    #@resources = Resource.without_images_by_filename
+    #@macros = TextFilter.macro_filters
+    #render 'merge_other_article'
+    redirect_to :action => :edit, :id => @article.id
   end
-
-
-
 
   protected
 
@@ -260,4 +269,3 @@ class Admin::ContentController < Admin::BaseController
     @resources = Resource.by_created_at
   end
 end
-

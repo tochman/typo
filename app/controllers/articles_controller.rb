@@ -101,7 +101,6 @@ class ArticlesController < ContentController
   end
 
 
-
   ### Deprecated Actions ###
 
   def archives

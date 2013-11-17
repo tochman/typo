@@ -276,17 +276,3 @@ end
 Then /^show me the page$/ do
   save_and_open_page
 end
-
-Given /^the following articles exist:$/ do |fields|
-  fields.rows_hash.each do |article_name, body_text|
-    #Given 'I am on the new article page'
-    #Then %{I fill in "article_title" with "#{article_name}"}
-    #And %{I fill in "article__body_and_extended_editor" with "#{body_text}"}
-    #Then 'I press "Publish"'
-    Article.create!({:title => article_name, :body => body_text})
-  end
-end
-
-And /^I enter the article ID of "(.*?)" into the "(.*?)" field$/ do |article_name, field_name|
-  fill_in(field_name, :with => Article.find_by_title(article_name).id)
-end

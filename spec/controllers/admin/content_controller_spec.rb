@@ -469,7 +469,11 @@ describe Admin::ContentController do
       Factory(:blog)
       #TODO delete this after remove fixture
       Profile.delete_all
-      @user = Factory(:user, :text_filter => Factory(:markdown), :profile => Factory(:profile_admin, :label => Profile::ADMIN))
+      @user = Factory(
+          :user,
+          :text_filter => Factory(:markdown),
+          :profile => Factory(:profile_admin, :label => Profile::ADMIN)
+      )
       @user.editor = 'simple'
       @user.save
       @article = Factory(:article)
@@ -480,6 +484,35 @@ describe Admin::ContentController do
     it_should_behave_like 'new action'
     it_should_behave_like 'destroy action'
     it_should_behave_like 'autosave action'
+
+    describe 'admin can merge a similar article' do
+      before :each do
+        @article1 = Factory(
+            :article,
+            :id => 10,
+            :user => @user,
+            :title => 'First',
+            :body => 'first article'
+        )
+        @article2 = Factory(
+            :article,
+            :id => 20,
+            :user => Factory(:user, :login => 'non-admin', :profile_id  => 2),
+            :title => 'Second',
+            :body => 'second article'
+        )
+      end
+
+      it 'should merge article1 with article2' do
+        a1 = @article1
+        a2 = @article2
+        Article.stub(:find).and_return(a1)
+        a1.should_receive(:merge_with).with(a2.id)
+        get :merge_other_article, 'id' => a1.id, 'merge_with' => a2.id
+        assigns(:article).should == a1
+        flash[:error].should be_nil
+      end
+    end
 
     describe 'edit action' do
 
@@ -621,6 +654,27 @@ describe Admin::ContentController do
     it_should_behave_like 'index action'
     it_should_behave_like 'new action'
     it_should_behave_like 'destroy action'
+
+    describe 'non-admin cannot merge a similar article' do
+      it 'should merge article1 with article2' do
+        article1 = Factory(
+            :article,
+            :id => 10,
+            :user => @user,
+            :title => 'First',
+            :body => 'first article'
+        )
+        article2 = Factory(
+            :article,
+            :id => 20,
+            :user => @user,
+            :title => 'Second',
+            :body => 'second article'
+        )
+        get :merge_other_article, 'id' => article1.id, 'merge_with' => article2.id
+        flash[:error].should_not be_nil
+      end
+    end
 
     describe 'edit action' do
 

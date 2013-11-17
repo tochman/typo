@@ -104,14 +104,15 @@ Rails.application.routes.draw do
     match "#{i}(/:action)", :to => i, :format => false
     match "#{i}(/:action(/:id))", :to => i, :id => nil, :format => false
   end
-
   # Admin/XController
   %w{advanced cache categories comments content profiles feedback general pages
      resources sidebar textfilters themes trackbacks users settings tags redirects seo post_types }.each do |i|
     match "/admin/#{i}", :to => "admin/#{i}#index", :format => false
     match "/admin/#{i}(/:action(/:id))", :to => "admin/#{i}", :action => nil, :id => nil, :format => false
   end
-
+  # Admin/content_controller merge
+  match '/admin/content/edit/:id/merge', :to => 'admin/content#merge_other_article',
+        :as => 'admin_merge'
   # default
   root :to  => 'articles#index', :format => false
 

@@ -630,5 +630,15 @@ describe Article do
     end
 
   end
+
+  describe "#merge_with" do
+    it "should merge two articles" do
+      article1 = Factory(:article, :id =>10, :body => "first")
+      article2 = Factory(:article, :id =>20, :body => "second")
+      article1.merge_with(article2.id)
+      article1.body.should == 'firstsecond'
+    end
+  end
+
 end
 
