@@ -3,22 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="0fc7a911-2f10-4fce-b1ea-76850f46fb38" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db_development" afterPath="$PROJECT_DIR$/db/db_development" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db_test" afterPath="$PROJECT_DIR$/db/db_test" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/content/_article_merge.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/content/_article_merge.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/shared/_edit.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/shared/_edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/content_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/content_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/merge_articles.feature" afterPath="$PROJECT_DIR$/features/merge_articles.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ckeditor/config.bak" afterPath="$PROJECT_DIR$/public/javascripts/ckeditor/config.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ckeditor/config.js" afterPath="$PROJECT_DIR$/public/javascripts/ckeditor/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/credentials.txt" afterPath="$PROJECT_DIR$/credentials.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/typo.iml" afterPath="$PROJECT_DIR$/.idea/typo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="typo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0fc7a911-2f10-4fce-b1ea-76850f46fb38" time="1384716528654" ignored="false" />
+    <file path="/Dummy.txt" changelist="0fc7a911-2f10-4fce-b1ea-76850f46fb38" time="1384725376032" ignored="false" />
     <file path="/articles_controller.rb" changelist="0fc7a911-2f10-4fce-b1ea-76850f46fb38" time="1384452016225" ignored="false" />
     <file path="/_edit.html.erb" changelist="0fc7a911-2f10-4fce-b1ea-76850f46fb38" time="1384716630405" ignored="false" />
     <file path="/content_controller.rb" changelist="0fc7a911-2f10-4fce-b1ea-76850f46fb38" time="1384723614023" ignored="false" />
@@ -49,7 +44,7 @@
       <file leaf-file-name="merge_articles.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/merge_articles.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="109" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.0">
+            <state line="25" column="109" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,19 +59,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="credentials.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/credentials.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="78" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
+            <state line="2" column="17" selection-start="31" selection-end="31" vertical-scroll-proportion="0.055137843">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="3600" selection-end="3600" vertical-scroll-proportion="0.0">
+            <state line="46" column="112" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +80,7 @@
       <file leaf-file-name="content_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/content_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="107" selection-start="7957" selection-end="7957" vertical-scroll-proportion="0.0">
+            <state line="259" column="107" selection-start="8001" selection-end="8001" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +89,7 @@
       <file leaf-file-name="article.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/article.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="476" column="110" selection-start="13590" selection-end="13590" vertical-scroll-proportion="0.0">
+            <state line="476" column="110" selection-start="13571" selection-end="13571" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +98,7 @@
       <file leaf-file-name="_edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/shared/_edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="563" selection-end="572" vertical-scroll-proportion="-10.258064">
+            <state line="6" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,16 +107,16 @@
       <file leaf-file-name="_article_merge.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/content/_article_merge.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="111" selection-start="553" selection-end="553" vertical-scroll-proportion="-10.645162">
+            <state line="6" column="111" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="28" selection-start="5837" selection-end="5837" vertical-scroll-proportion="0.8747515">
+            <state line="120" column="28" selection-start="5874" selection-end="5874" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +125,7 @@
       <file leaf-file-name="web_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="276" column="0" selection-start="7904" selection-end="7904" vertical-scroll-proportion="0.0">
+            <state line="276" column="0" selection-start="7847" selection-end="7847" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,9 +149,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/credentials.txt" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/admin/shared/_edit.html.erb" />
         <option value="$PROJECT_DIR$/features/step_definitions/web_steps.rb" />
         <option value="$PROJECT_DIR$/features/merge_articles.feature" />
@@ -164,6 +157,8 @@
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/content/_article_merge.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/credentials.txt" />
       </list>
     </option>
   </component>
@@ -175,7 +170,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
+    <option name="x" value="20" />
     <option name="y" value="22" />
     <option name="width" value="1900" />
     <option name="height" value="955" />
@@ -206,8 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,17 +263,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Cucumber.Successfully merge two articles">
     <configuration default="false" name="All features in: features" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
@@ -579,13 +574,6 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -619,6 +607,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -730,15 +725,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: typo" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: typo" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.All features in: features" />
-      <item index="5" class="java.lang.String" itemvalue="Cucumber.merge_articles" />
-      <item index="6" class="java.lang.String" itemvalue="Cucumber.Merge feature should not be offered when creating a new articles" />
-      <item index="7" class="java.lang.String" itemvalue="Cucumber.Non-admin cannot merge articles (sad path)" />
-      <item index="8" class="java.lang.String" itemvalue="Cucumber.Successfully merge two articles" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.All features in: features" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.merge_articles" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.Merge feature should not be offered when creating a new articles" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Non-admin cannot merge articles (sad path)" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Successfully merge two articles" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="7" class="java.lang.String" itemvalue="Rails.Production: typo" />
+      <item index="8" class="java.lang.String" itemvalue="Rails.Development: typo" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -777,23 +772,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="22" width="1900" height="955" extended-state="0" />
+    <frame x="20" y="22" width="1900" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2564935" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25974026" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -882,13 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/credentials.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="119" selection-start="31" selection-end="31" vertical-scroll-proportion="0.08747515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/backend_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -903,23 +891,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="78" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="276" column="0" selection-start="7904" selection-end="7904" vertical-scroll-proportion="0.0">
+        <state line="276" column="0" selection-start="7847" selection-end="7847" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/shared/_edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="563" selection-end="572" vertical-scroll-proportion="-10.258064">
+        <state line="6" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -933,7 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/merge_articles.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="109" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.0">
+        <state line="25" column="109" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -947,28 +928,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/content_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="107" selection-start="7957" selection-end="7957" vertical-scroll-proportion="0.0">
+        <state line="259" column="107" selection-start="8001" selection-end="8001" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="476" column="110" selection-start="13590" selection-end="13590" vertical-scroll-proportion="0.0">
+        <state line="476" column="110" selection-start="13571" selection-end="13571" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/content/_article_merge.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="111" selection-start="553" selection-end="553" vertical-scroll-proportion="-10.645162">
+        <state line="6" column="111" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="28" selection-start="5837" selection-end="5837" vertical-scroll-proportion="0.8747515">
+        <state line="120" column="28" selection-start="5874" selection-end="5874" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="112" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credentials.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="31" selection-end="31" vertical-scroll-proportion="0.055137843">
           <folding />
         </state>
       </provider>
