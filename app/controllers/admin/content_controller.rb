@@ -134,10 +134,6 @@ class Admin::ContentController < Admin::BaseController
           flash[:notice] = _("Articles are successfully merged")
       end
     end
-    #@images = Resource.images_by_created_at.page(params[:page]).per(10)
-    #@resources = Resource.without_images_by_filename
-    #@macros = TextFilter.macro_filters
-    #render 'merge_other_article'
     redirect_to :action => :edit, :id => @article.id
   end
 

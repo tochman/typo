@@ -425,7 +425,7 @@ class Article < Content
       update_attribute(:body, new_body)
       update_attribute(:comments, new_comments)
       self.reload
-      other_article.delete
+      other_article.destroy
     end
     self
   end
